@@ -1,0 +1,97 @@
+{
+  "id": "lesson1",
+  "title": "Bom dia, Lisboa!",
+  "warmup": {
+    "prompt": "How do you say 'Good morning' in Portuguese?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Bom dia",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Boa noite",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Olá",
+        "correct": false
+      }
+    ],
+    "feedback": {
+      "correct": "Nice. Bom dia is morning until lunch.",
+      "wrong": "It is Bom dia. You will use it until lunchtime."
+    }
+  },
+  "dialogue": [
+    {
+      "speaker": "H",
+      "pt": "Bom dia. Bem-vinda a Lisboa.",
+      "en": "Good morning. Welcome to Lisbon."
+    },
+    {
+      "speaker": "G",
+      "pt": "Bom dia. Muito obrigada. Chamo-me Sarah.",
+      "en": "Good morning. Thank you very much. My name is Sarah."
+    },
+    {
+      "speaker": "H",
+      "pt": "Prazer, Sarah. Sou o João.",
+      "en": "Nice to meet you, Sarah. I am João."
+    },
+    {
+      "speaker": "G",
+      "pt": "Prazer, João. É a minha primeira vez em Portugal.",
+      "en": "Nice to meet you, João. It is my first time in Portugal."
+    }
+  ],
+  "noticing": {
+    "prompt": "In 'Chamo-me Sarah', what does '-me' mean?",
+    "choices": [
+      {
+        "id": "me",
+        "text": "me",
+        "correct": true
+      },
+      {
+        "id": "you",
+        "text": "you",
+        "correct": false
+      },
+      {
+        "id": "him",
+        "text": "him/her",
+        "correct": false
+      }
+    ],
+    "explain": "'-me' means 'me'. Portuguese uses a reflexive form here."
+  },
+  "microTask": {
+    "prompt": "Introduce yourself to your host. Say your name and where you are from.",
+    "example": "Bom dia. Chamo-me Alex. Sou dos EUA."
+  },
+  "review": [
+    {
+      "front": "Good morning",
+      "back": "Bom dia"
+    },
+    {
+      "front": "Welcome to Lisbon",
+      "back": "Bem-vinda a Lisboa"
+    },
+    {
+      "front": "My name is...",
+      "back": "Chamo-me..."
+    },
+    {
+      "front": "Nice to meet you",
+      "back": "Prazer"
+    },
+    {
+      "front": "I am from...",
+      "back": "Sou de..."
+    }
+  ]
+}

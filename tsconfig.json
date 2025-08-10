@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "strict": true,
+    "noEmit": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "types": ["react", "react-native"]
+  }
+}
